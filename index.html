@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Aaron Quilacio">
+        <meta name="Description" content="Formative Assesment 1">
+        <meta name="Date" content="11/16/2023">
+        <title>Formative Assesment 1</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: Helvetica;
+            }
+            a.link1:link{
+                background-color: #264653;
+                font-size: 30px;
+            }
+
+            a.link1:active{
+                color: rgb(0, 0, 0);
+                background-color: #468aa4;
+            }
+
+            a.link1:hover{
+                background-color: rgb(223, 223, 99);
+            }
+
+            a.link1:visited{
+                color: black;
+                background-color: #e76f51;
+            }
+
+            a.link2:link{
+                background-color: #2a9d8f;
+                font-size: 30px;
+            }
+
+            a.link2:active{
+                color: black;
+                background-color: #11413b;
+            }
+
+            a.link2:hover{
+                background-color: rgb(223, 223, 99);
+            }
+
+            a.link2:visited{
+                color: black;
+                background-color: #e76f51;
+            }
+            div{
+                border: 0.5px solid black;
+                width: 130px;
+                height: 100px;
+                margin: 10px 0;
+                padding: 10px;
+           
+            }
+            #div1:target{
+                background-color: #264653;
+                color: yellow;
+            }
+            #div2:target{
+                background-color: #2a9d8f;
+                color: #dba078;
+                border: 10px dotted green;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="link1" href="#div1">First Link</a>
+        <a class="link2" href="#div2">Second Link</a>
+        <div id="div1">Div 1 here</div>
+        <div id="div2">Div 2 here</div>
+    </body>
+</html>
